@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="69.364" tests="4" skipped="0" failures="0" errors="0">
+<testcase classname="To Test PNC Bank Enrollment Functionality with Invalid details" name="#1.1" time="22.328">
+<system-out><![CDATA[
+Given User Launches the PNC Bank application................................passed
+When User clicks on the Sign On button......................................passed
+And User clicks on the Enroll In Online Banking button......................passed
+Then Verify that the user is on the enrollment page.........................passed
+When User selects the SSN radio button and enters the PAN Account Number "123456789".passed
+And User enters the PAN Account Number "12345678"...........................passed
+And User selects the PNC Debit Card PIN radio button and enters the PNC debit card pin "090909".passed
+And User clicks on the next button..........................................passed
+Then Verify that the application shows an appropriate warning message on the UI.passed
+]]></system-out>
+</testcase>
+<testcase classname="To Test PNC Bank Enrollment Functionality with Invalid details" name="#1.1" time="16.133">
+<system-out><![CDATA[
+Given User Launches the PNC Bank application................................passed
+When User clicks on the Sign On button......................................passed
+And User clicks on the Enroll In Online Banking button......................passed
+Then Verify that the user is on the enrollment page.........................passed
+When User selects the SSN radio button and enters the PAN Account Number "123456789".passed
+And User enters the PAN Account Number "12345678"...........................passed
+And User selects the Online Access PIN radio button and enters the online access pin "5523".passed
+And User clicks on the next button..........................................passed
+Then Verify that the application shows an appropriate warning message on the UI.passed
+]]></system-out>
+</testcase>
+<testcase classname="To Test PNC Bank Enrollment Functionality with Invalid details" name="#1.1" time="15.53">
+<system-out><![CDATA[
+Given User Launches the PNC Bank application................................passed
+When User clicks on the Sign On button......................................passed
+And User clicks on the Enroll In Online Banking button......................passed
+Then Verify that the user is on the enrollment page.........................passed
+When User selects the PNC Online and Voice Banking User ID radio button and enters the PNC Online and voice Banking userid "123456789".passed
+And User enters the PAN Account Number "12345678"...........................passed
+And User selects the Online Access PIN radio button and enters the online access pin "5523".passed
+And User clicks on the next button..........................................passed
+Then Verify that the application shows an appropriate warning message on the UI.passed
+]]></system-out>
+</testcase>
+<testcase classname="To Test PNC Bank Enrollment Functionality with Invalid details" name="#1.1" time="15.222">
+<system-out><![CDATA[
+Given User Launches the PNC Bank application................................passed
+When User clicks on the Sign On button......................................passed
+And User clicks on the Enroll In Online Banking button......................passed
+Then Verify that the user is on the enrollment page.........................passed
+When User selects the PNC Online and Voice Banking User ID radio button and enters the PNC Online and voice Banking userid "123456789".passed
+And User enters the PAN Account Number "12345678"...........................passed
+And User selects the PNC Debit Card PIN radio button and enters the PNC debit card pin "090909".passed
+And User clicks on the next button..........................................passed
+Then Verify that the application shows an appropriate warning message on the UI.passed
+]]></system-out>
+</testcase>
+</testsuite>
